@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogo Adi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+
+
+
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Welcome</a>
+        <ul>
+            <li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+            <li><a href="#work" onclick="toggle()">work</a></li>
+            <li><a href="#certificate" onclick="toggle()">Certificate</a></li>
+            <li><a href="https://adiyogo3.blogspot.com/">Blog</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+      <div>
+        <h2>Hello, Yogo Adi here</h2> <br>
+        <p>This is Yogo, who is taking the Back End course in our own Glints Academy Batch 9 and
+        mainly learning about Node.js, make an API, CRUD database and other backend work.
+        Even though mainly learning about Node.js, I also good knowladge about Front End
+        framework such as HTML, CSS, Bootstrap, Jquery, and etc. <br> <br> I also have experience in
+        digital marketing analyst at a start-up on Bandung Digital valley. Currently very
+        motivated to explore his capabilities by taking a new opportunity to start career and colaborate with local companies.</p> <br>
+        <p> Connect With Me :</p>
+        <!-- <a>Connect with Me</a> -->
+        <div class="icon text-center">
+          <a class="tombol" href="https://www.instagram.com/ady_yogo/"><i class="fab fa-instagram"></i></a>
+          <a class="tombol" href="https://www.linkedin.com/in/yogo-a-257997a5/"><i class="fab fa-linkedin"></i></a>
+          <a class="tombol" href="https://api.whatsapp.com/send?phone=62895399656361"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <img src="img/photo_2021-01-29_23-57-30.jpg" alt="">
+    </section>
+    
+    <section id="work">
+      <div class="container">
+        <div class="row text-center">
+          <h2>Work</h2> <br>
+          <div class="col">
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="img/mail.jpg"
+                class="card-img-top" alt="Simple React CRUD">
+              <div class="card-body">
+                <h5 class="card-title">Message Me !</h5>
+                <p class="card-text">Simple React CRUD App with Hooks</p>
+                <a href="https://adiy03.github.io/react-messageMe/" class="btn btn-primary">Try</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="img/shoppingCart.jpg"
+                class="card-img-top" alt="Shopping Cart example">
+              <div class="card-body">
+                <h5 class="card-title">Shopping Cart example</h5>
+                <p class="card-text">Shopping Cart example with javascript</p>
+                <a href="#" class="btn btn-primary">Try</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="img/soka.jpg"
+                class="card-img-top" alt="Project soka">
+              <div class="card-body">
+                <h5 class="card-title">Soka</h5>
+                <p class="card-text">Glints Academy Final Project, Role: backend - make a data model structure, provide API and deploy it to Amazon Web Service</p>
+                <a href="https://youtu.be/5n1Wu_rthW4" class="btn btn-primary">View</a>
+                <a href="https://github.com/Adiy03/simpleReactApp/tree/master/gitFolder/finalProjectBESoka" class="btn btn-primary">Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="certificate">
+      <img src="img/0001.jpg" class="img-fluid" alt="..." width="600px">
+    </section>  
+
+    
+    <!-- <section id="contact" min-height="50vh">
+      <div class="icon text-center">
+        <a class="tombol" href="https://www.instagram.com/ady_yogo/"><i class="fab fa-instagram"></i></a>
+        <a class="tombol" href="https://www.linkedin.com/in/yogo-a-257997a5/"><i class="fab fa-linkedin"></i></a>
+        <a class="tombol" href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </section> -->
+  
+    <script type="text/javascript">
+      function toggle() {
+        var header = document.getElementById('header')
+        header.classList.toggle('active')
+      }
+    </script>
+
+</body>
+</html>
