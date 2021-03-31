@@ -104,7 +104,10 @@ header ul li a {
 .content .imgBox img {
     max-width: 340px;
 }
+<<<<<<< HEAD:starbuckPage/style.css
 
+=======
+>>>>>>> 2254e088a87d3be33272cb611ffe79cbe3e77878:starbucksPage/style.css
 .thumb {
     position: absolute;
     left: 50%;
@@ -112,7 +115,10 @@ header ul li a {
     transform: translateX(-50%);
     display: flex;
 }
+<<<<<<< HEAD:starbuckPage/style.css
 
+=======
+>>>>>>> 2254e088a87d3be33272cb611ffe79cbe3e77878:starbucksPage/style.css
 .thumb li {
     list-style: none;
     display: inline-block;
@@ -122,14 +128,21 @@ header ul li a {
 }
 
 .thumb li:hover {
+<<<<<<< HEAD:starbuckPage/style.css
     transform: translateX(-20px);
+=======
+    transform: translateY(-15px) ;
+>>>>>>> 2254e088a87d3be33272cb611ffe79cbe3e77878:starbucksPage/style.css
 }
 
 .thumb li img {
     max-width: 60px;
     padding-top: 15px;
 }
+<<<<<<< HEAD:starbuckPage/style.css
 
+=======
+>>>>>>> 2254e088a87d3be33272cb611ffe79cbe3e77878:starbucksPage/style.css
 .sci {
     position: absolute;
     top: 50%;
@@ -149,8 +162,13 @@ header ul li a {
     display: inline-block;
     margin: 5px 0;
     transform: scale(0.6);
+<<<<<<< HEAD:starbuckPage/style.css
 }
 
+=======
+    filter: invert(1);
+}
+>>>>>>> 2254e088a87d3be33272cb611ffe79cbe3e77878:starbucksPage/style.css
 .circle {
     position: absolute;
     top: 0;
@@ -159,4 +177,87 @@ header ul li a {
     height: 100%;
     background: #017143;
     clip-path: circle(600px at right 800px);
+}
+@media (max-width: 991px)
+{
+    header {
+        padding: 20px;
+    }
+    header .logo {
+        max-width: 60px;
+    }
+    header ul {
+        display: none;
+    }
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url('img/menu.png');
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        z-index: 11 ;
+    }
+    .toggle.active {
+        position: fixed;
+        right: 20px ;
+        background: url('img/close.png');
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    header ul.navigation.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        z-index: 10;
+    }
+    header ul li a {
+        font-size: 1.5em;
+        margin: 5px 0;
+    }
+    section {
+        padding: 20px 20px 120px;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content .textBox h2 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+    .content .textBox {
+        max-width: 100%;
+    }
+    .content .imgBox {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .content .imgBox img {
+        max-width: 300px;
+    }
+    .thumb li img {
+        max-width: 40px;
+    }
+    .circle {
+        clip-path: circle(400px at center bottom);
+    }
+    .sci {
+        background: #017143;
+        right: 0;
+        width: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
 }
