@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="toggle" onclick="toggleMenu();"></div>
+
+  <section class="banner" id="home">
+
+    <div class="imgSidebar">
+      <img src="img/me1.jpg" alt="">
+    </div>
+    <div class="contentBx">
+      <h5 class="logoText">My_Portfolio</h5>
+      <div>
+        <h4><span>Hello</span>I'm </h4>
+        <h2>Yogo Adi</h2>
+        <h4>I'm a Web Developer</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint doloribus cumque, eum fugit quisquam molestiae nulla ipsum eos, suscipit officiis dolore sit natus tempora laborum, possimus debitis illo amet?</p>
+        <a href="" class="btn">About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      const menuToggle = document.querySelector(".toggle");
+      menuToggle.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
