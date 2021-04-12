@@ -21,18 +21,51 @@
       <h5 class="logoText">My_Portfolio</h5>
       <div>
         <h4><span>Hello</span>I'm </h4>
-        <h2>Yogo Adi</h2>
+        <h2>YoGo Adi</h2>
         <h4>I'm a Web Developer</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint doloribus cumque, eum fugit quisquam molestiae nulla ipsum eos, suscipit officiis dolore sit natus tempora laborum, possimus debitis illo amet?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint doloribus cumque, eum fugit
+          quisquam molestiae nulla ipsum eos, suscipit officiis dolore sit natus tempora laborum, possimus debitis illo
+          amet?</p>
         <a href="" class="btn">About Me</a>
+      </div>
+      <ul class="sci">
+        <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+        <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="title white">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ratione, explicabo molestiae minus unde ullam consectetur est vitae assumenda fuga autem repudiandae sint laboriosam, at non neque quas et modi?</p>
+    </div>
+    <div class="content">
+      <div class="textBx">
+        
       </div>
     </div>
   </section>
+  <!-- Akhir About -->
+
+  <div class="sidebar">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </div>
 
   <script>
     function toggleMenu() {
       const menuToggle = document.querySelector(".toggle");
+      const sidebar = document.querySelector(".sidebar");
       menuToggle.classList.toggle('active');
+      sidebar.classList.toggle('active');
     }
   </script>
 </body>
