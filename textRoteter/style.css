@@ -40,7 +40,7 @@ h2 span {
         display: flex;
         justify-content: right;
         align-items: center;
-        min-height: 90vh;
+        min-height: 10vh;
         background: url(img/rotatorimg.jpeg);
         background-size: cover;
     }
