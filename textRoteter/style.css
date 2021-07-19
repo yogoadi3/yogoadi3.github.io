@@ -28,7 +28,7 @@ h2 span {
 @media (max-width: 992px) {
     body {
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         min-height: 100vh;
         background: url(img/rotatorimg.jpeg);
@@ -39,6 +39,5 @@ h2 span {
         font-size: 5em;
         color: burlywood;
         width: 80%;
-        justify-content: center;
     }
 }
