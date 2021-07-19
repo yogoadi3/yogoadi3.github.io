@@ -32,7 +32,7 @@ h2 span {
     
 @media (max-width: 992px) {
     * {
-        margin: 15px;
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
@@ -46,13 +46,13 @@ h2 span {
         background: url(img/rotatorimg.jpeg);
         background-size: cover;
         padding-bottom: 30vh;
-        margin-left: 15px;
     }
     h2 {
         position: relative;
         font-size: 2em;
         color: burlywood;
         width: 70%;
+        margin-left: 15px;
     }
     
     h2 span {
