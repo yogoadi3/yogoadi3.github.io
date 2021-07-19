@@ -25,19 +25,29 @@ h2 span {
     display: none;
 }
 
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppings', sans-serif;
+    }
     body {
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         min-height: 100vh;
         background: url(img/rotatorimg.jpeg);
         background-size: cover;
-        font-size: medium;
     }
     h2 {
         position: relative;
+        font-size: 3em;
         color: burlywood;
         width: 80%;
     }
-} */
+    h2 span {
+        color: beige;
+        display: none;
+    }
+}
