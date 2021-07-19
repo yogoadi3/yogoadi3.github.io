@@ -40,7 +40,7 @@ h2 span {
     body {
         flex-direction: column;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         min-height: 100vh;
         background: url(img/rotatorimg.jpeg);
