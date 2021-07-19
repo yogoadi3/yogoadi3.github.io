@@ -40,14 +40,15 @@ h2 span {
         display: flex;
         justify-content: right;
         align-items: center;
-        min-height: 10vh;
+        min-height: 100vh;
         background: url(img/rotatorimg.jpeg);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     h2 {
         position: relative;
-        font-size: 18px;
+        font-size: 3em;
         color: burlywood;
         width: 80%;
     }
