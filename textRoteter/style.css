@@ -39,5 +39,6 @@ h2 span {
         font-size: 2em;
         color: burlywood;
         width: 50%;
+        justify-content: center;
     }
 }
