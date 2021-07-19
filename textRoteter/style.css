@@ -39,6 +39,7 @@ h2 span {
         background: url(img/rotatorimg.jpeg);
         background-size: cover;
         padding-bottom: 30vh;
+        margin-left: 15px;
     }
     h2 {
         position: relative;
