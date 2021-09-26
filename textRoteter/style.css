@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    padding: 120px 25px 25px;
+    background: url(img/rotatorimg.jpeg);
+    background-size: cover;
+}
+
+
+section h2 {
+    position: relative;
+    font-size: 4em;
+    color: burlywood;
+    width: 80%;
+}
+
+section h2 span {
+    color: beige;
+    display: none;
+}
+
+    
+@media (max-width: 992px) {
+    section {
+        padding: 100px 50px 50px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+}
