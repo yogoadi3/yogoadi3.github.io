@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(002.png);
+    background-size: cover;
+}
+
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+    background: whitesmoke;
+    padding: 30px;
+    /* border-radius: 50px; */
+}
+
+.banner .content h2 {
+    font-size: 5em;
+    color: #1a3365;
+}
+
+.banner .content p {
+    font-size: 1.5em;
+    color: #1a3365;
+}
+
+.btn {
+    font-size: 1em;
+    color: white;
+    background: #075e54;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    letter-spacing: 6px;
+}
+
+section {
+    padding: 100px 100px 50px 100px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50 {
+    position: relative;
+    width: 48%;
+}
+
+.titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 700;
+    color: #1a3365;
+}
+
+/* .about .row .col50 .titleText p {
+    font-size: 12px;
+} */
+
+.row .col50 .imgBx {
+    position: relative;
+    width: 100%;
+    /* min-height: 300px; */
+    height: 100%;
+}
+
+.row .col50 .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Swiper */
+.work {
+    /* padding-top: -60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #1a3365; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 400px;
+    background: white;
+    object-fit: contain;
+}
+
+.swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kemudahan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.kemudahan .titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 700;
+    color: #1a3365;
+}
+
+.container {
+    position: relative;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.container .card {
+    position: relative;
+    width: 300px;
+    height: 420px;
+    margin: 30px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out;
+}
+
+/* .container .card:hover {
+    height: 420px;
+} */
+
+.container .card .imgBx {
+    position: relative;
+    width: 260px;
+    /* height: 260px; */
+    top: -60px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgBx img {
+    /* min-width: 100%; */
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -40px;
+    padding: 10px 15px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 991px) {
+    section {
+        padding: 20px;
+    }
+
+    .banner .content h2 {
+        font-size: 3em;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col50 {
+        position: relative;
+        width: 100%;
+    }
+
+    .row .col50 .imgBx {
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .swiper-slide {
+        width: 300px;
+        height: 200px;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+}
