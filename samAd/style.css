@@ -13,8 +13,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(002.png);
+    background: url(img/002.png);
     background-size: cover;
+}
+
+.banner2 {
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(img/mantap2.png); */
+    background-color: #075e54;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.banner2 .content {
+    max-width: 900px;
+    text-align: center;
+    background: whitesmoke;
+    padding: 30px;
+    /* border-radius: 50px; */
 }
 
 .banner .content {
@@ -61,6 +82,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    min-height: 50vh;
 }
 
 .row .col50 {
@@ -75,6 +97,9 @@ section {
     color: #1a3365;
 }
 
+.col50 p {
+    font-size: 18px;
+}
 /* .about .row .col50 .titleText p {
     font-size: 12px;
 } */
@@ -126,7 +151,7 @@ section {
 .container .card {
     position: relative;
     width: 300px;
-    height: 420px;
+    height: 380px;
     margin: 30px;
     padding: 20px 15px;
     display: flex;
@@ -136,9 +161,9 @@ section {
     background: white;
 }
 
-.container .card:hover {
+/* .container .card:hover {
     height: 420px;
-}
+} */
 
 .container .card .imgBx {
     position: relative;
@@ -153,7 +178,11 @@ section {
 .container .card .imgBx img {
     /* min-width: 100%; */
     border-radius: 4px;
-    max-width: 100%;
+    /* max-width: 100%;
+    max-height: 150px; */
+    width: 260px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .container .card .content {
@@ -178,10 +207,10 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    /* background-color: #1a3365; */
+    /* background-color: #; */
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 
 
@@ -208,6 +237,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -225,6 +255,10 @@ section {
 
     .banner .content h2 {
         font-size: 3em;
+    }
+
+    .col50 h2 {
+        margin-top: 25px;
     }
 
     .row {
@@ -253,5 +287,9 @@ section {
 
     .container {
         margin-top: 30px;
+    }
+
+    .container .card {
+        height: 350px;
     }
 }
