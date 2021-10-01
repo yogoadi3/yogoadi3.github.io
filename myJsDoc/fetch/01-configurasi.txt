@@ -1,0 +1,19 @@
+01.0  INSTALLATION
+      npm install node-fetch
+
+01.1  LOADING AND CONFIGURE THE MODULE
+      import fetch from 'node-fetch';
+
+      if you want to patch the global object in node:
+        import fetch from 'node-fetch';
+        if (!globalThis.fetch) {
+            globalThis.fetch = fetch;
+        }
+
+01.2  node-fetch adalah modul khusus ESM - Anda tidak dapat mengimpornya dengan require
+
+01.3  Alternatively, you can use the async import() function from CommonJS to load node-fetch asynchronously:
+        // mod.cjs
+        const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+
+
